@@ -1,0 +1,329 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Poppins:wght@100;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+
+}
+body{
+    background-color: rgb(49, 48, 48);
+}
+.container{
+    max-width: 75%;
+    margin-inline: auto;
+}
+
+/* Utility classes */
+h1{
+    font-size: 3.125rem;
+    font-weight: 650;
+}
+
+h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Main Header */
+
+.main-header{
+    height: 110vh;
+background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.9)), url("/2ffc1cbc-179b-4a1e-aab0-4791a23b68b5/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg");   
+background-size: cover;
+padding: 30px;
+position: relative;
+}
+.navbar{
+    justify-content: space-between;
+    font-size: 0.875rem;
+    
+} 
+
+.logo img{
+    height: 65px;
+}
+.nav-buttons a{
+    padding: 7px 15px;
+    border-radius: 4px;
+}
+.primary-button{
+    border: 0.3px solid white;
+    margin-right: 20px;
+    padding-inline: 10px !important;
+}
+.secondory-button{
+    background-color: #e50914;
+    padding-inline: 13px !important;
+}
+
+/* small header */
+.small-header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* max-width: 700px; */
+    margin-inline:auto;
+    margin-top: 20%;
+    /* padding: 15px; */
+}
+.small-header h2{
+    margin-block: 20px;
+}
+.header-email{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.header-email input{
+    width: 390px;
+    font-size: 1rem;
+    padding: 15px;
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 2px;
+    background-color: #3333337a;
+    /* min-width: 500px */
+}
+.header-email h2{
+    padding: 9px;
+    margin: 0 !important;
+    font-weight: 400;
+
+}
+.header-email a{
+    border: 2px solid rgb(139, 18, 18);
+}
+
+/* feature section */
+.feature{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 7px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.feature-text{
+     width: 50%; 
+    padding: 70px
+    
+}
+.feature-image{
+     width: 50%; 
+}
+.feature-image img{
+    max-width: 100%;
+
+}
+.f2{
+    flex-direction: row-reverse;
+}
+.f2 .feature-image{
+    position: relative;
+}
+.download-card{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    line-height: 1.4rem;
+    font-weight: 700;
+    background-color: #000;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(73, 68, 68);
+    top: 68%;
+    left: 16%;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card-icon img{
+    width: 55px;
+}
+.card-icon{
+    margin-left: 40px;
+}
+.card-image img{
+    width: 55px;
+}
+
+/* question box section */
+
+.question-box{
+    background-color: #000;
+}
+.inner-question-box{
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 70px;
+}
+.q-box{
+    margin-top: 40px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+    gap: 10px
+    ;
+}
+.q{
+    /* border: 2px solid blue; */
+    padding: 20px;
+    justify-content: space-between;
+        background-color: rgb(49, 48, 48);
+        transition: 0.2s ease-in-out;
+}
+.q:hover{
+    background-color: #444343;
+}
+.inner-question-box{
+    flex-direction: column;
+
+}
+.lower-email{
+   width: 700px;
+}
+.lower-email-text{
+    margin-top: 60px;
+    font-size: 1.15rem;
+}
+
+/* footer */
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-decoration: underline;
+    row-gap: 15px;
+}
+
+.footer{
+    margin-top: 7px;
+    background-color: #000;
+    padding-block: 70px 40px;
+}
+ .footer a{
+    font-size:0.9rem;
+    color:#c9c6c6;
+} 
+.footer .call p{
+    color: #c9c6c6;
+    margin-bottom: 40px;
+}
+
+.footer-button{
+    display: inline-block;
+    margin-top: 35px;
+    padding-block: 5px;
+    border-radius: 3px;
+    background: #3131318a;
+}
+.lasttext{
+ margin-block: 20px 40px;
+ color:#c9c6c6;
+}
+.footer p{
+    font-size: 0.9rem;
+}
+
+
+/* media queries */
+@media  (width<=960px){
+
+    h1{
+        font-size: 2rem;
+        font-weight: 400px;
+    }
+  
+    .container{
+        max-width: 90%;
+    }
+    .feature-text{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .feature-image{
+   
+       margin-block: auto;
+    }
+}
+
+@media (width<=500px) {
+    *{
+        font-size: 13px;
+    }
+    .footer .menu{
+        grid-template-columns: 1fr 1fr;
+    }
+    .lower-email {
+    max-width: 100%; 
+    }
+   .secondory-button {
+        margin-top: 15px;
+    }
+    .feature-text{
+        padding: 10px;
+    }
+    .feature-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .download-card{
+        left: 10px;
+    }
+    .card-image img {
+        width: 40px;
+    }
+    .header-email input{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .main-header{
+        height: 90vh;
+        padding: 25px 15px;
+    }
+    .logo img {
+        height: 45px;
+    }
+    .navbar a{
+        margin-top: 0;
+    }
+    .primary-button{
+        margin-right: 10px;
+        font-size: 0;
+    }
+    .temp{
+        display:inline-block;
+    }
+     .temp2{
+        display: inline-block;
+        font-size: 0;
+     }
+}
